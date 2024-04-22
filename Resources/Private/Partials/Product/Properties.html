@@ -1,0 +1,40 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<table class="tx-simple-products">
+	<tr>
+		<td><f:translate key="tx_simpleproducts_domain_model_product.title" /></td>
+		<td>{product.title}</td>
+	</tr>
+	<tr>
+		<td><f:translate key="tx_simpleproducts_domain_model_product.slug" /></td>
+		<td>{product.slug}</td>
+	</tr>
+	<tr>
+		<td><f:translate key="tx_simpleproducts_domain_model_product.description" /></td>
+		<td>{product.description}</td>
+	</tr>
+	<tr>
+		<td><f:translate key="tx_simpleproducts_domain_model_product.price" /></td>
+		<td>{product.price}</td>
+	</tr>
+	<tr>
+		<td><f:translate key="tx_simpleproducts_domain_model_product.images" /></td>
+		<td>
+				<a href="{product.images.originalResource.publicUrl}">
+					{product.images.originalResource.name}
+				</a>
+			</td>
+	</tr>
+	<tr>
+		<td><f:translate key="tx_simpleproducts_domain_model_product.downloads" /></td>
+		<td>
+				<a href="{product.downloads.originalResource.publicUrl}">
+					{product.downloads.originalResource.name}
+				</a>
+			</td>
+	</tr>
+	<tr>
+		<td><f:translate key="tx_simpleproducts_domain_model_product.category" /></td>
+		<td>{product.category}</td>
+	</tr>
+</table>
+</html>
