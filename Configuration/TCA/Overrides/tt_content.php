@@ -17,10 +17,10 @@ if (!is_array($GLOBALS['TCA']['tt_content']['types']['simple_products_pi1'] ?? f
     'tt_content',
     'CType',
     [
-        'Product Display',
-        'simple_products_pi1',
-        'simple_products-plugin-pi1',
-        'simple_products'
+        'label' => 'Product Display',
+        'value' => 'simple_products_pi1',
+        'icon'  => 'simple_products-plugin-pi1',
+        'group' => 'simple_products'
     ]
 );
 

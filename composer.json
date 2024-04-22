@@ -1,7 +1,7 @@
 {
     "name": "erhaweb/simple-products",
     "type": "typo3-cms-extension",
-    "description": "This extension demonstrates the standard output of the Extension Builder v12.0.0-beta.2 by managing simple product data",
+    "description": "This extension demonstrates the standard output of the Extension Builder branch typo3-12-reactjs by managing simple product data",
     "authors": [
         {
             "name": "Eric Harrer",

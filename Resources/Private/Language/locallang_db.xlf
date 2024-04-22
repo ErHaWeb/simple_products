@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="EXT:simple_products/Resources/Private/Language/locallang_db.xlf" date="2024-04-22T13:21:23Z" product-name="simple_products">
+	<file source-language="en" datatype="plaintext" original="EXT:simple_products/Resources/Private/Language/locallang_db.xlf" date="2024-04-22T16:03:28Z" product-name="simple_products">
 		<header/>
 		<body>
 			<trans-unit id="tx_simpleproducts_domain_model_product" resname="tx_simpleproducts_domain_model_product">
