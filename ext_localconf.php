@@ -22,11 +22,11 @@ defined('TYPO3') || die();
                 after = common
                 elements {
                     pi1 {
-                        iconIdentifier = simple_products-plugin-pi1
-                        title = LLL:EXT:simple_products/Resources/Private/Language/locallang_db.xlf:tx_simple_products_pi1.name
-                        description = LLL:EXT:simple_products/Resources/Private/Language/locallang_db.xlf:tx_simple_products_pi1.description
+                        iconIdentifier = tx_simpleproducts_pi1
+                        title = LLL:EXT:simple_products/Resources/Private/Language/locallang_db.xlf:tx_simpleproducts_pi1.name
+                        description = LLL:EXT:simple_products/Resources/Private/Language/locallang_db.xlf:tx_simpleproducts_pi1.description
                         tt_content_defValues {
-                            CType = simple_products_pi1
+                            CType = simpleproducts_pi1
                         }
                     }
                 }

@@ -3,13 +3,13 @@ defined('TYPO3') || die();
 
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
     'SimpleProducts',
-    'simple_products_pi1',
+    'pi1',
     'Product Display',
-    'simple_products-plugin-pi1'
+    'simpleproducts_pi1'
 );
 
-if (!is_array($GLOBALS['TCA']['tt_content']['types']['simple_products_pi1'] ?? false)) {
-    $GLOBALS['TCA']['tt_content']['types']['simple_products_pi1'] = [];
+if (!is_array($GLOBALS['TCA']['tt_content']['types']['simpleproducts_pi1'] ?? false)) {
+    $GLOBALS['TCA']['tt_content']['types']['simpleproducts_pi1'] = [];
 }
 
 // Add content element to selector list
@@ -18,8 +18,8 @@ if (!is_array($GLOBALS['TCA']['tt_content']['types']['simple_products_pi1'] ?? f
     'CType',
     [
         'label' => 'Product Display',
-        'value' => 'simple_products_pi1',
-        'icon'  => 'simple_products-plugin-pi1',
+        'value' => 'simpleproducts_pi1',
+        'icon'  => 'tx_simpleproducts_pi1',
         'group' => 'simple_products'
     ]
 );
@@ -27,10 +27,10 @@ if (!is_array($GLOBALS['TCA']['tt_content']['types']['simple_products_pi1'] ?? f
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue(
     '*',
     'FILE:EXT:simple_products/Configuration/FlexForms/flexform_pi1.xml',
-    'simple_products_pi1'
+    'simpleproducts_pi1'
 );
 
-$GLOBALS['TCA']['tt_content']['types']['simple_products_pi1']['showitem'] = '
+$GLOBALS['TCA']['tt_content']['types']['simpleproducts_pi1']['showitem'] = '
     --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
         --palette--;;general,
         --palette--;;headers,

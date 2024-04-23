@@ -172,7 +172,7 @@ return [
                 'type' => 'select',
                 'renderType' => 'selectSingle',
                 'foreign_table' => 'sys_category',
-                'size' => 30,
+                'size' => 1,
             ],
         ],
     

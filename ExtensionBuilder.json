@@ -36,6 +36,10 @@
                     "properties": [
                         {
                             "allowedFileTypes": "",
+                            "propertyDescription": "This is the product title",
+                            "propertyIsExcludeField": false,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
                             "propertyIsRequired": true,
                             "propertyName": "title",
                             "propertyType": "String",
@@ -77,10 +81,11 @@
                             "rows": "10",
                             "minItems": "",
                             "maxItems": "",
-                            "uid": "7ced1b09-13b2-4cdc-8f94-603b11399ec7"
+                            "uid": "99f54a74-a211-4927-a368-20336ac7868f"
                         },
                         {
                             "allowedFileTypes": "",
+                            "propertyDescription": "This is the slug generated based on the title",
                             "propertyName": "slug",
                             "propertyType": "Slug",
                             "typeSelect": {
@@ -121,10 +126,11 @@
                             "rows": "10",
                             "minItems": "",
                             "maxItems": "",
-                            "uid": "3933815a-e666-4ada-96d0-0e797d98f6ee"
+                            "uid": "34a4306e-59fc-4b21-a40c-5f7a9b3b8247"
                         },
                         {
                             "allowedFileTypes": "",
+                            "propertyDescription": "This is the product description",
                             "propertyName": "description",
                             "propertyType": "Text",
                             "typeSelect": {
@@ -165,10 +171,11 @@
                             "rows": "10",
                             "minItems": "",
                             "maxItems": "",
-                            "uid": "5a117f5d-b9de-4fa4-a52f-a5e2d3cf7dde"
+                            "uid": "1b6b342f-aeae-48ee-beec-b89363ce06bf"
                         },
                         {
                             "allowedFileTypes": "",
+                            "propertyDescription": "This is the price",
                             "propertyName": "price",
                             "propertyType": "Float",
                             "typeSelect": {
@@ -209,10 +216,11 @@
                             "rows": "10",
                             "minItems": "",
                             "maxItems": "",
-                            "uid": "5c603992-535e-43d8-89a2-4f24f6d81366"
+                            "uid": "5164f763-2e9b-4d68-a7e3-2b092d3f81cd"
                         },
                         {
                             "allowedFileTypes": "",
+                            "propertyDescription": "Images of the product",
                             "propertyName": "images",
                             "propertyType": "File",
                             "typeSelect": {
@@ -253,10 +261,11 @@
                             "rows": "10",
                             "minItems": "",
                             "maxItems": "",
-                            "uid": "667f5174-6fd9-437a-9a29-373f379d7638"
+                            "uid": "7a1152d6-c648-4cbf-a056-5f94b8a2328c"
                         },
                         {
                             "allowedFileTypes": "",
+                            "propertyDescription": "Arbitrary files to download for this product",
                             "propertyName": "downloads",
                             "propertyType": "File",
                             "typeSelect": {
@@ -297,14 +306,14 @@
                             "rows": "10",
                             "minItems": "",
                             "maxItems": "",
-                            "uid": "1ec30865-2f2c-4691-99b0-1382fa584f61"
+                            "uid": "402d6b72-d5b8-4b34-a3e5-2c392733c35a"
                         },
                         {
                             "allowedFileTypes": "",
                             "propertyName": "category",
                             "propertyType": "Select",
                             "typeSelect": {
-                                "selectboxValues": "",
+                                "selectboxValues": "Any category to select",
                                 "renderType": "selectSingle",
                                 "foreignTable": "sys_category",
                                 "whereClause": ""
@@ -337,11 +346,11 @@
                             "typeFile": {
                                 "allowedFileTypes": ""
                             },
-                            "size": "30",
+                            "size": "1",
                             "rows": "10",
                             "minItems": "0",
                             "maxItems": "1",
-                            "uid": "d7f9a717-aade-4c3b-8fc9-109b80e79292"
+                            "uid": "916177ee-3298-41b0-85ae-25781e13adaf"
                         }
                     ]
                 },
@@ -397,7 +406,7 @@
     "edges": [],
     "storagePath": "\/var\/www\/html\/packages\/",
     "log": {
-        "last_modified": "2024-04-22 04:03",
+        "last_modified": "2024-04-22 11:30",
         "extension_builder_version": "dev-typo3-12-reactjs",
         "be_user": "Eric Harrer (2)"
     }

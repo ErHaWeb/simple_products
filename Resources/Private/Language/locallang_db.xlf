@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="EXT:simple_products/Resources/Private/Language/locallang_db.xlf" date="2024-04-22T16:03:28Z" product-name="simple_products">
+	<file source-language="en" datatype="plaintext" original="EXT:simple_products/Resources/Private/Language/locallang_db.xlf" date="2024-04-22T23:30:32Z" product-name="simple_products">
 		<header/>
 		<body>
 			<trans-unit id="tx_simpleproducts_domain_model_product" resname="tx_simpleproducts_domain_model_product">
@@ -13,34 +13,34 @@
 				<source>Title</source>
 			</trans-unit>
 			<trans-unit id="tx_simpleproducts_domain_model_product.title.description" resname="tx_simpleproducts_domain_model_product.title.description">
-				<source>Title</source>
+				<source>This Is The Product Title</source>
 			</trans-unit>
 			<trans-unit id="tx_simpleproducts_domain_model_product.slug" resname="tx_simpleproducts_domain_model_product.slug">
 				<source>Slug</source>
 			</trans-unit>
 			<trans-unit id="tx_simpleproducts_domain_model_product.slug.description" resname="tx_simpleproducts_domain_model_product.slug.description">
-				<source>Slug</source>
+				<source>This Is The Slug Generated Based On The Title</source>
 			</trans-unit>
 			<trans-unit id="tx_simpleproducts_domain_model_product.description.description" resname="tx_simpleproducts_domain_model_product.description.description">
-				<source>Description</source>
+				<source>This Is The Product Description</source>
 			</trans-unit>
 			<trans-unit id="tx_simpleproducts_domain_model_product.price" resname="tx_simpleproducts_domain_model_product.price">
 				<source>Price</source>
 			</trans-unit>
 			<trans-unit id="tx_simpleproducts_domain_model_product.price.description" resname="tx_simpleproducts_domain_model_product.price.description">
-				<source>Price</source>
+				<source>This Is The Price</source>
 			</trans-unit>
 			<trans-unit id="tx_simpleproducts_domain_model_product.images" resname="tx_simpleproducts_domain_model_product.images">
 				<source>Images</source>
 			</trans-unit>
 			<trans-unit id="tx_simpleproducts_domain_model_product.images.description" resname="tx_simpleproducts_domain_model_product.images.description">
-				<source>Images</source>
+				<source>Images Of The Product</source>
 			</trans-unit>
 			<trans-unit id="tx_simpleproducts_domain_model_product.downloads" resname="tx_simpleproducts_domain_model_product.downloads">
 				<source>Downloads</source>
 			</trans-unit>
 			<trans-unit id="tx_simpleproducts_domain_model_product.downloads.description" resname="tx_simpleproducts_domain_model_product.downloads.description">
-				<source>Downloads</source>
+				<source>Arbitrary Files To Download For This Product</source>
 			</trans-unit>
 			<trans-unit id="tx_simpleproducts_domain_model_product.category" resname="tx_simpleproducts_domain_model_product.category">
 				<source>Category</source>

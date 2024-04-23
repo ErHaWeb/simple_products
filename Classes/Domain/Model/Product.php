@@ -21,7 +21,7 @@ class Product extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
 {
 
     /**
-     * title
+     * This is the product title
      *
      * @var string
      * @TYPO3\CMS\Extbase\Annotation\Validate("NotEmpty")
@@ -29,28 +29,28 @@ class Product extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     protected $title;
 
     /**
-     * slug
+     * This is the slug generated based on the title
      *
      * @var string
      */
     protected $slug;
 
     /**
-     * description
+     * This is the product description
      *
      * @var string
      */
     protected $description;
 
     /**
-     * price
+     * This is the price
      *
      * @var float
      */
     protected $price;
 
     /**
-     * images
+     * Images of the product
      *
      * @var \TYPO3\CMS\Extbase\Domain\Model\FileReference
      * @TYPO3\CMS\Extbase\Annotation\ORM\Cascade("remove")
@@ -58,7 +58,7 @@ class Product extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     protected $images;
 
     /**
-     * downloads
+     * Arbitrary files to download for this product
      *
      * @var \TYPO3\CMS\Extbase\Domain\Model\FileReference
      * @TYPO3\CMS\Extbase\Annotation\ORM\Cascade("remove")

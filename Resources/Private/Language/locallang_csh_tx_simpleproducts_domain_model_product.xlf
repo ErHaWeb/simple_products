@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="EXT:simple_products/Resources/Private/Language/locallang_csh_tx_simpleproducts_domain_model_product.xlf" date="2024-04-22T16:03:28Z" product-name="simple_products">
+	<file source-language="en" datatype="plaintext" original="EXT:simple_products/Resources/Private/Language/locallang_csh_tx_simpleproducts_domain_model_product.xlf" date="2024-04-22T23:30:32Z" product-name="simple_products">
 		<header/>
 		<body>
 			<trans-unit id="title.description" resname="title.description">
-				<source>title</source>
+				<source>This is the product title</source>
 			</trans-unit>
 			<trans-unit id="slug.description" resname="slug.description">
-				<source>slug</source>
+				<source>This is the slug generated based on the title</source>
 			</trans-unit>
 			<trans-unit id="description.description" resname="description.description">
-				<source>description</source>
+				<source>This is the product description</source>
 			</trans-unit>
 			<trans-unit id="price.description" resname="price.description">
-				<source>price</source>
+				<source>This is the price</source>
 			</trans-unit>
 			<trans-unit id="images.description" resname="images.description">
-				<source>images</source>
+				<source>Images of the product</source>
 			</trans-unit>
 			<trans-unit id="downloads.description" resname="downloads.description">
-				<source>downloads</source>
+				<source>Arbitrary files to download for this product</source>
 			</trans-unit>
 			<trans-unit id="category.description" resname="category.description">
 				<source>category</source>
